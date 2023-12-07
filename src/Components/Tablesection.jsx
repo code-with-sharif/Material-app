@@ -1,3 +1,5 @@
+import ExploreclassIcon2 from "../icons/explorclass heading-icon2";
+import ExploreclassIcon from "../icons/explorclassheading-icon";
 import TableIcon1 from "../icons/table-icon1";
 import TableIcon2 from "../icons/table-icon2";
 import ThreedotIcon from "../icons/threedot-icon";
@@ -40,7 +42,26 @@ const Tablesection = () => {
   return (
     <>
       <main className="my-20  lg:w-[90%] w-full mx-auto">
+
+     
+
         <div className="flex flex-col lg:mx-8 ">
+
+        <div className="flex justify-between my-2">
+          <h1 className="text-subheadingfont font-medium text-peacockblue">
+          Latest Transaction
+          </h1>
+          <p className="text-pairagraphfont font-medium text-peacockblue inline-flex items-center ">
+            <span>
+              <ExploreclassIcon />
+            </span>
+            <span className="mx-2">View All</span>
+            <span>
+              <ExploreclassIcon2 />
+            </span>
+          </p>
+        </div>
+
           <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
               <div className="overflow-hidden">
