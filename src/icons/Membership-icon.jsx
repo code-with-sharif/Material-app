@@ -1,5 +1,5 @@
 import * as React from "react"
-const Membershipicon = (props) => (
+const MembershipIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={44}
@@ -22,4 +22,4 @@ const Membershipicon = (props) => (
     />
   </svg>
 )
-export default Membershipicon;
+export default MembershipIcon;

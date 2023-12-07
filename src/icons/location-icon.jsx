@@ -21,4 +21,4 @@ const LocationIcon = (props) => (
     />
   </svg>
 )
-export default LocationIcon
+export default LocationIcon;

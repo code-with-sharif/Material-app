@@ -1,44 +1,49 @@
 import React from 'react';
-import Membershipicon from '../icons/Membership-icon';
-import Arrowicon from '../icons/Arrowup-icon';
-import Arrowdon from '../icons/Arrowdon';
+import Membershipicon from '../icons/membership-icon';
 import Attendance from '../icons/attendance-icon';
 import Training from '../icons/training-icon';
-import Book from '../icons/bookin-icon';
+import Arrowdownicon from '../icons/Arrowdown';
+import Arrowupicon from '../icons/Arrowup-icon';
+import BookingIcon from '../icons/booking-icon';
+import ArrowdownIcon from '../icons/Arrowdown';
+import ArrowupIcon from '../icons/Arrowup-icon';
+import AttendanceIcon from '../icons/attendance-icon';
+import MembershipIcon from '../icons/membership-icon';
+import TrainingIcon from '../icons/training-icon';
 
 const Cardsection = () => {
   const userInformation = [
     {
-      icon: <Membershipicon />,
+      icon: <MembershipIcon />,
       text: "Membership",
       status: "Active",
-      limit1: <Arrowicon />,
+      limit1: <ArrowupIcon />,
       uasage: "Expired",
-      limit2: <Arrowdon />,
+      limit2: <ArrowdownIcon />,
     },
     {
-      icon: <Attendance />,
+      icon: <AttendanceIcon />,
       text: "Attendance",
       status: "Present",
-      limit1: <Arrowicon />,
+      limit1: <ArrowupIcon />,
       uasage: "Absent",
-      limit2: <Arrowdon />,
+      limit2: <ArrowdownIcon />,
     },
     {
-      icon: <Training />,
+      icon: <TrainingIcon />,
       text: "Training Time",
       status: "Weekly",
-      limit1: <Arrowicon />,
+      limit1: <ArrowupIcon />,
       uasage: "Monthly",
-      limit2: <Arrowdon />,
+      limit2: <ArrowdownIcon />,
     },
     {
-      icon: <Book />,
+      icon: <BookingIcon />,
       text: "Booking",
       status: "Active",
-      limit1: <Arrowicon />,
+      limit1: <ArrowupIcon />,
       uasage: "Expired",
-      limit2: <Arrowdon />,
+      limit2: <ArrowdownIcon />,
     },
     // Add more objects as needed
   ];

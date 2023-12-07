@@ -1,6 +1,6 @@
 import * as React from "react"
 import Exploreclaases from "../Components/Exploreclaases"
-const Exploreclaasesicon = (props) => (
+const ExploreclassIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={23}
@@ -14,4 +14,4 @@ const Exploreclaasesicon = (props) => (
     />
   </svg>
 )
-export default Exploreclaasesicon;
+export default ExploreclassIcon;

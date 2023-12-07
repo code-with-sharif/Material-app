@@ -1,5 +1,5 @@
 import * as React from "react"
-const Threedoticon = (props) => (
+const ThreedotIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={7}
@@ -13,4 +13,4 @@ const Threedoticon = (props) => (
     />
   </svg>
 )
-export default Threedoticon;
+export default ThreedotIcon;

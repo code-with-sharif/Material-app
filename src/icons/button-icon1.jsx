@@ -1,5 +1,5 @@
 import * as React from "react"
-const Buttonicon1 = (props) => (
+const ButtonIcon1 = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={16}
@@ -17,4 +17,4 @@ const Buttonicon1 = (props) => (
     </defs>
   </svg>
 )
-export default Buttonicon1;
+export default ButtonIcon1;

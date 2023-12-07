@@ -1,5 +1,5 @@
 import * as React from "react"
-const Calendericon = (props) => (
+const CalenderIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={17}
@@ -21,4 +21,4 @@ const Calendericon = (props) => (
     />
   </svg>
 )
-export default Calendericon;
+export default CalenderIcon;

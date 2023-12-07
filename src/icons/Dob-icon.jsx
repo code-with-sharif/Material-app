@@ -1,5 +1,5 @@
 import * as React from "react"
-const Dobicon = (props) => (
+const DobIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={16}
@@ -17,4 +17,4 @@ const Dobicon = (props) => (
     />
   </svg>
 )
-export default Dobicon;
+export default DobIcon;

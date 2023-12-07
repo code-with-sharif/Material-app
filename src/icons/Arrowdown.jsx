@@ -1,5 +1,5 @@
 import * as React from "react"
-const Arrowdon = (props) => (
+const ArrowdownIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={7}
@@ -13,4 +13,4 @@ const Arrowdon = (props) => (
     />
   </svg>
 )
-export default Arrowdon;
+export default ArrowdownIcon;

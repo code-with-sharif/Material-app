@@ -2,9 +2,10 @@ import React from "react";
 import userimg from "../Images/User Profile.png";
 
 import LocationIcon from "../icons/location-icon";
-import Emailicon from "../icons/email-icon";
-import Calendericon from "../icons/calender-icon";
-import Dobicon from "../icons/Dob-icon";
+
+import CalenderIcon from "../icons/calender-icon";
+import EmailIcon from "../icons/email-icon";
+import DobIcon from "../icons/dob-icon";
 // import Callicon from "../icons/call-icon";
 
 const Herosection = () => {
@@ -14,7 +15,7 @@ const Herosection = () => {
       text: "76 St Maurices Road, Priest Hutton, United Kingdom, LA6 2YZ",
     },
     {
-      icon: <Emailicon /> ,
+      icon: <EmailIcon /> ,
       text: "Stevens.wilson@gmail.com  ",
     },
     {
@@ -22,11 +23,11 @@ const Herosection = () => {
       text: "+4167207045",
     },
     {
-      icon: <Calendericon />,
+      icon: <CalenderIcon />,
       text: "Join From: 13 March, 2023",
     },
     {
-      icon: <Dobicon />,
+      icon: <DobIcon />,
       text: "D.O.B: 13 March, 2001",
     },
     // Add more objects as needed

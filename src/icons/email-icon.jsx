@@ -1,5 +1,5 @@
 import * as React from "react"
-const Emailicon = (props) => (
+const EmailIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={16}
@@ -15,4 +15,4 @@ const Emailicon = (props) => (
     />
   </svg>
 )
-export default Emailicon;
+export default EmailIcon;
