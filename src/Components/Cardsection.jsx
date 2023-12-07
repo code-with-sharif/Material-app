@@ -1,9 +1,4 @@
-import React from 'react';
-import Membershipicon from '../icons/membership-icon';
-import Attendance from '../icons/attendance-icon';
-import Training from '../icons/training-icon';
-import Arrowdownicon from '../icons/Arrowdown';
-import Arrowupicon from '../icons/Arrowup-icon';
+
 import BookingIcon from '../icons/booking-icon';
 import ArrowdownIcon from '../icons/Arrowdown';
 import ArrowupIcon from '../icons/Arrowup-icon';
@@ -62,7 +57,7 @@ const Cardsection = () => {
                 </div>
                 <div>
                   <ul>
-                    <li className='text-blackcolor text-pairagraphfont font-medium'>{userInfo.text}</li>
+                    <li className='text-blackcolor text-pairagraphfont font-medium mt-1'>{userInfo.text}</li>
                     <li className='justify-end inline-flex items-center gap-2 w-full my-2'>
                       <span className='text-[#007F5F] text-pairagraphfont font-medium'>170</span>
                       <span>{userInfo.limit1}</span>

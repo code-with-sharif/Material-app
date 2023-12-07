@@ -81,7 +81,7 @@ const Exploreclaases = () => {
                   <li className="text-blackcolor text-pairagraphfont font-bold">
                     {classItem.title}
                   </li>
-                  <li className="text-blackcolor text-pairagraphfont font-medium">
+                  <li className="text-blackcolor text-pairagraphfont mt-2 font-medium">
                     {classItem.date}
                   </li>
                 </ul>
